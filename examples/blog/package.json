@@ -22,7 +22,7 @@
     "nexus-plugin-prisma": "^0.32.0"
   },
   "devDependencies": {
-    "@types/faker": "^5.1.5",
+    "@types/faker": "^5.5.3",
     "@types/ws": "^7.4.0",
     "faker": "^5.1.0",
     "prettier": "^2.2.1",
