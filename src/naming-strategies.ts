@@ -3,6 +3,9 @@ import pluralize from 'pluralize'
 import { InternalDMMF } from './dmmf'
 import { upperFirst } from './utils'
 
+pluralize.addIrregularRule('media', 'medias')
+// console.log('added irregular rule.')
+
 export interface ArgsNamingStrategy {
   whereInput: (typeName: string, fieldName: string) => string
   orderByInput: (typeName: string, fieldName: string) => string
