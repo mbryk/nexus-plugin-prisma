@@ -14,6 +14,7 @@
     "typegen.js",
     "typegen.d.ts"
   ],
+  "prepack": "npm run build",
   "scripts": {
     "release:preview": "dripip preview",
     "release:stable": "dripip stable",
